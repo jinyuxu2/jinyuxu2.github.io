@@ -1,48 +1,72 @@
-/* Navigation */
-.nav nav {
-    text-align: center;
-    margin-top: 20px;
-    font-weight: bold;
-}
-
-nav a {
-    margin: 0 15px;
-    text-decoration: none;
-    color: #0066cc;
-}
-
-/* Hero Section */
-.hero {
-    text-align: center;
-    padding: 60px 20px;
-}
-
-.hero h1 {
-    font-size: 3rem;
+/* Reset / Base */
+body {
     margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: #f5f7fb;
+    color: #1f2937;
 }
 
-.hero p {
+/* Top Navigation */
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 40px;
+    background-color: #1e3a8a;
+}
+
+.site-name {
     font-size: 1.2rem;
-    margin-top: 10px;
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: none;
 }
 
-/* Content Sections */
-.about-me, .highlights {
+/* Navigation links — normalize ALL states */
+.nav-right a,
+.nav-right a:visited,
+.nav-right a:focus,
+.nav-right a:hover {
+    margin-left: 24px;
+    text-decoration: none;
+    color: #e0e7ff;
+    font-weight: 500;
+}
+
+/* Active page */
+.nav-right a.active {
+    color: #ffffff;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+/* Main content */
+main {
     max-width: 900px;
-    margin: auto;
-    padding: 40px 20px;
+    margin: 80px auto;
+    padding: 0 24px;
 }
 
-.highlights ul {
-    list-style-type: disc;
-    padding-left: 20px;
+h1 {
+    font-size: 2.4rem;
+    margin-bottom: 20px;
 }
 
 /* Footer */
 .footer {
     text-align: center;
+    padding: 30px 20px;
+    background-color: #eef2ff;
     font-size: 0.9rem;
-    padding-top: 30px;
-    border-top: 1px solid #ccc;
+    color: #374151;
+}
+
+.footer a {
+    color: #1e40af;
+    text-decoration: none;
+    margin: 0 6px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
 }
