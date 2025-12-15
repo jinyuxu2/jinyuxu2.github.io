@@ -1,42 +1,48 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    max-width: 900px;
-    margin: auto;
-    padding: 20px;
-    line-height: 1.6;
-    color: #333;
-}
-
-header {
+/* Navigation */
+.nav nav {
     text-align: center;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    font-weight: bold;
 }
 
-header h1 {
-    margin-bottom: 5px;
-}
-
-header a {
-    margin: 0 8px;
+nav a {
+    margin: 0 15px;
     text-decoration: none;
     color: #0066cc;
 }
 
-section {
-    margin-bottom: 30px;
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
 }
 
-h2 {
-    border-bottom: 2px solid #ddd;
-    padding-bottom: 5px;
+.hero h1 {
+    font-size: 3rem;
+    margin: 0;
 }
 
-ul {
+.hero p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Content Sections */
+.about-me, .highlights {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.highlights ul {
+    list-style-type: disc;
     padding-left: 20px;
 }
 
-footer {
+/* Footer */
+.footer {
     text-align: center;
-    color: #777;
-    margin-top: 50px;
+    font-size: 0.9rem;
+    padding-top: 30px;
+    border-top: 1px solid #ccc;
 }
