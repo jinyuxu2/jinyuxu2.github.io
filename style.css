@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+header a {
+    margin: 0 8px;
+    text-decoration: none;
+    color: #0066cc;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    color: #777;
+    margin-top: 50px;
+}
